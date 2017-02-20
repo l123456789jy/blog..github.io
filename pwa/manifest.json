@@ -1,6 +1,6 @@
 {
-  "name": "Hux Blog",
-  "short_name": "Hux Blog",
+  "name": "Lazy Blog",
+  "short_name": "Lazy Blog",
   "description": "About an engineer & designer who loves web.",
   "icons": [{
     "src": "icons/128.png",
