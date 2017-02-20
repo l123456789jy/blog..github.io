@@ -85,6 +85,8 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
+#精确时间
+timezone: CN
 
 
 # Friends
