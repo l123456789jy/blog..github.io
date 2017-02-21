@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "安卓加载arm64-v8a文件so库报错"
+title:      "android打包一个没有快捷键的apk,并且通过另一个应用启动"
 subtitle:   ""
 date:       2016-12-11 14:44:00
 author:     "Lazy"
