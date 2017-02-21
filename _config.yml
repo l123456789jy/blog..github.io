@@ -95,7 +95,7 @@ friends: [
         title: "谷歌",
         href: "https://www.google.com.hk/?gws_rd=ssl"
     },{
-        title: "Google Java Style Guide",
-        href: "https://google.github.io/styleguide/javaguide.html/"
+        title: "Google Developer",
+        href: "https://developer.android.google.cn/index.html?hl=zh-cn"
     }
 ]
