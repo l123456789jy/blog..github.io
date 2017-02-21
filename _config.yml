@@ -5,8 +5,8 @@ header-img: img/home-bg.jpg
 email: jingyuanliu0@gmail.com
 description: "一个正在爬的菜鸟！"
 keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, 肖玉, Lynn, 肖玉的男朋友"
-url: ""              # your host, for absolute URL
-baseurl: "/blog.github.io"                             # for example, '/blog' if your blog hosted on 'host/blog'
+url: "https://l123456789jy.github.io/blog.github.io/"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
