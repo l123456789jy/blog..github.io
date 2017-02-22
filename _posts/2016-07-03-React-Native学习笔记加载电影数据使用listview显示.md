@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "React-Native学习笔记-加载网络上电影数据并且使用listview分批加载"
-subtitle:   "Welcome to my blog "
+title:      "React-Native学习笔记加载电影数据使用listview显示"
+subtitle:   ""
 date:       2016-07-03 15:32:00
 author:     "Lazy"
 header-img: "img/post-bg-nextgen-web-pwa.jpg"
@@ -11,6 +11,7 @@ tags:
     - ReactNative
     - ListView
 ---
+
 
 
 
@@ -29,11 +30,10 @@ import React, {
     ListView,
 } from 'react-native';
 var REQUEST_URL = 'https://raw.githubusercontent.com/facebook/react-native/master/docs/MoviesExample.json';
-var movieData=new Array();
 class AwesomeProject extends Component {
     //返回当前显示的view
     render() {
-        // ToastAndroid.show(JSON.stringify(this.state.loaded),ToastAndroid.SHORT)
+        ToastAndroid.show(JSON.stringify(this.state.loaded),ToastAndroid.SHORT)
         //由于刚开始的的时候设置loaded为false，所以第一次会加载等待的view
         if (!this.state.loaded) {
             return this.renderLoadingView();
@@ -41,25 +41,16 @@ class AwesomeProject extends Component {
 
         return(
             <ListView
-                initiaListSize={1}
-                onEndReachedThreshold={10}
                 //设置ListView的数据源
                 dataSource={this.state.dataSource}
                 //listview的回掉方法
                 renderRow={this.renderMovie}
-                //监听滑动到底部的方法 注意ES6的写法必须要bind要不然this对象不对
-                onEndReached={this.onLoadeMore.bind(this)}
+                //监听滑动到底部的方法
+                onEndReached={()=> {this.fetchData()}}
                 style={styles.listView}
             />
         );
     }
-
-    onLoadeMore() {
-        this.fetchData();
-
-    }
-
-
     //加载等待的view
     renderLoadingView() {
         return (
@@ -106,29 +97,20 @@ class AwesomeProject extends Component {
     }
 
 
-    onResoutData(responseData){
-        var concat = movieData.concat(responseData.movies);
-        movieData=concat;
-        ToastAndroid.show(movieData.length+"",ToastAndroid.SHORT)
-        this.setState({
-            //将获取到的数据赋值给dataSource
-            dataSource: this.state.dataSource.cloneWithRows(movieData),
-            //标记已经加载成功完毕
-            loaded: true,
-        });
-    }
-
-
-
-
     fetchData() {
         //这个是js的访问网络的方法
         fetch(REQUEST_URL)
             //ES6的写法左边代表输入的参数右边是逻辑处理和返回结果
             .then((response) => response.json())
             .then((responseData) => {
-                this.onResoutData(responseData);
+                this.setState({
+                    //将获取到的数据赋值给dataSource
+                    dataSource: this.state.dataSource.cloneWithRows(responseData.movies),
+                    //标记已经加载成功完毕
+                    loaded: true,
+                });
             })
+            .done();
     }
 }
 
@@ -162,6 +144,7 @@ const styles = StyleSheet.create({
 });
 
 AppRegistry.registerComponent('AwesomeProject', () => AwesomeProject);
+
 
 
 
