@@ -194,7 +194,7 @@ layout: default
                 </ul>
                 {% endif %}
 
-              <h6>最近访客</h6>
+              <h6 color="black">最近访客</h6>
               <ul class="ds-recent-visitors" data-num-items="100" data-avatar-size="30"></ul>
               <!--多说js加载开始，一个页面只需要加载一次 -->
               <script type="text/javascript">
@@ -210,7 +210,20 @@ layout: default
                   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
               })();
               </script>
-    		</div>
+              <script>
+                (function() {
+                  var cx = '017095143807693824211:egtk_orxgka';//此处放上你自己的google search代码
+                  var gcse = document.createElement('script');
+                  gcse.type = 'text/javascript';
+                  gcse.async = true;
+                  gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                      '//www.google.com/cse/cse.js?cx=' + cx;
+                  var s = document.getElementsByTagName('script')[0];
+                  s.parentNode.insertBefore(gcse, s);
+                })();
+              </script>
+              <gcse:searchresults-only></gcse:searchresults-only>
+            </div>
         {% endif %}
 	</div>
 
