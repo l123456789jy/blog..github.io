@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      "ReactNative打包"
+title:      "Android中Sqlite数据库升级"
 subtitle:   ""
 date:       2017-03-22 15:32:00
-author:     "Android中Sqlite数据库升级"
+author:     ""
 header-img: "img/post-bg-nextgen-web-pwa.jpg"
 header-mask: 0.3
 catalog:    true
