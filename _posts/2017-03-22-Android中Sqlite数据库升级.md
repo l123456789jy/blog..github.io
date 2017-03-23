@@ -45,7 +45,7 @@ public class KgcDatabaseOpenHelper extends SQLiteOpenHelper {
         JLog.e("KgcDatabaseOpenHelper============oldVersion="+oldVersion);
         JLog.e("KgcDatabaseOpenHelper============newVersion="+newVersion);
 
-        switch (oldVersion){
+        switch (newVersion){
             case 2:
                 break;
         }
@@ -79,7 +79,7 @@ public class KgcDatabaseOpenHelper extends SQLiteOpenHelper {
 ```java
 
  public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        if (oldVersion==2){
+        if (newVersion==2){
             db.execSQL("ALTER TABLE A RENAME TO A_temp");
             db.execSQL("CREATE TABLE A(_id integer primary key"
                  + "autoincrement, region varchar, code varchar, "
@@ -91,4 +91,20 @@ public class KgcDatabaseOpenHelper extends SQLiteOpenHelper {
     }
 
 ```
-这样就是升级现有表结构方法
+这样就是升级现有表结构方法，如果用户安装了新的安装包，不卸载直接安装之前就会
+
+   Caused by: android.database.sqlite.SQLiteException: Can't downgrade database from version 2 to 1
+
+
+其实，如果我们只是想在某个之前的表上多增加一个字段执行使用插入语句就可以了;
+
+
+
+ //从版本1到版本2时，增加了一个字段 desc
+
+
+
+                String sql = "alter table ["+TABLE_NAME+"] add [desc] nvarchar(300)";
+                  db.execSQL(sql);
+
+不能降级的
