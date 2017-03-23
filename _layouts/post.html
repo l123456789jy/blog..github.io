@@ -189,22 +189,17 @@ layout: default
 
 
 {% if site.duoshuo_username %}
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<!-- 网易云跟帖公共JS代码 start (一个网页只需插入一次) -->
+<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
 <script type="text/javascript">
-    // dynamic User by Hux
-    var _user = '{{site.duoshuo_username}}';
-
-    // duoshuo comment query.
-    var duoshuoQuery = {short_name: _user };
-    (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';ds.async = true;
-        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0]
-         || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
+    var cloudTieConfig = {
+    url: document.location.href,
+    sourceId: "",
+    productKey: "31916abd61da4b5d9b75abccad0aa7c6",
+    target: "cloud-tie-wrapper"
+  };
 </script>
+<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
 <!-- 多说公共JS代码 end -->
 {% endif %}
 
