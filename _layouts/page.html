@@ -193,25 +193,25 @@ layout: default
                     {% endfor %}
                 </ul>
                 {% endif %}
-              <h6 color="black">最近访客</h6>
+              <h6 color="black">Google搜索本站</h6>
               <ul class="ds-recent-visitors" data-num-items="100" data-avatar-size="30"></ul>
 
     		</div>
         {% endif %}
 	</div>
-  <!--多说js加载开始，一个页面只需要加载一次 -->
-  <script type="text/javascript">
-              var duoshuoQuery = {
-                  short_name: "abc123456789fdfdsfsdfsdf"
-              };
-              (function () {
-                  var ds = document.createElement('script');
-                  ds.type = 'text/javascript';
-                  ds.async = true;
-                  ds.src = 'https://static.duoshuo.com/embed.js';
-                  ds.charset = 'UTF-8';
-                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
-              })();
-              </script>
-    <!--多说js加载结束，一个页面只需要加载一次 -->
+  <!--谷歌搜索-->
+    <script>
+  (function() {
+    var cx = '007295299794163033291:cxuzttyenjc';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+    </script>
+    <gcse:search></gcse:search>
+
 </div>
