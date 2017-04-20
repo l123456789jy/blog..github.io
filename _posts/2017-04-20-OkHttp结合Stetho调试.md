@@ -84,39 +84,3 @@ private static OkHttpClientManager mInstance;
 
 
 
-
-- 如果没有修改这个容器的默认SS配置如下：
-
-
-    IP地址：参考端口映射
-    SS端口：对应3721/TCP的端口，如果使用UDP转发，端口为3721/UDP所对应的值
-    SS密码：laogao
-    SS加密：aes-256-cfb
-    SS超时：300
-
-
-
-此处的数据是填写在Android上的SS软件上
-
-
-![image](http://ws3.sinaimg.cn/large/9f723435ly1fetarie1rij20u01hcgot.jpg)
-
-![image](http://wx3.sinaimg.cn/large/9f723435ly1fetaqxzgu1j20u01hc79d.jpg)
-
-
-
-- 这里需要注意如果要使用KCP加速需要去下载插件搜索下就行了，插件填写参数如下不用修改：
-        dscp=46;parityshard=3;key=phpgao;mode=fast;mtu=1350;rcvwnd=1024;datashard=15;sndwnd=1024;crypt=aes-192
-
-
-
-- 如果使用了KCP ss上服务器的端口要是对应3824/UDP的端口,不用KCP加速直接使用后面跟的TCP端口就行。
-
-
-- KCP默认配置、
-
-        远程IP：参考端口映射
-        远程端口：对应3824/UDP的端口
-        TCP密码：phpgao
-        SS加密：aes-192
-        SS模式：fast
