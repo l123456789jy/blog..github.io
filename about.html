@@ -177,17 +177,20 @@ header-img: "img/about-bg.jpg"
 <!-- disqus 评论框 end -->
 
 <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = "{{site.disqus_username}}";
-    var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
-    var disqus_url = "{{site.url}}{{page.url}}";
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: 'location.href', // 可选。默认为 location.href
+  owner: 'l123456789jy',
+  repo: 'https://github.com/l123456789jy/BWG/issues',
+  oauth: {
+    client_id: 'f35b33d77467f858e5e5',
+    client_secret: '3ec3d614d05e1becde205b6dc10f11dc25728ee2',
+  },
+})
+gitment.render('container')
 </script>
 <!-- disqus 公共JS代码 end -->
 {% endif %}
