@@ -325,6 +325,11 @@ public class HookedInstrumentation extends Instrumentation implements Handler.Ca
     }
 }
 ```
+
+- 这里需要注意，我们需要hook ActivityThread的Instrumentation和activity的Instrumentation同时hook，因为activity的
+
+Instrumentation是通过ActivityThread传递过来，而ActivityThread hook之前已经调用了所以需要同时hook activity的Instrumentation
+
 经过上面的流程下来就可以实现插件activity的跳转了和生命周期的回调
 
 参考此代码：https://github.com/vimerzhao/PluginDemo
