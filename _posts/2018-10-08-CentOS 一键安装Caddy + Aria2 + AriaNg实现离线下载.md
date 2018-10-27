@@ -33,4 +33,6 @@ tags:
 -在浏览器输入http://IP：6080/
 ![](https://ws1.sinaimg.cn/large/9f723435ly1fw0lf6rhj4j213t0de3zh.jpg)
 
+详细文档查看这里：https://doc.xiaoz.me/#/ccaa/use
+
 这里输入完，安装的时候设置的秘钥，刷新界面就可以了。
