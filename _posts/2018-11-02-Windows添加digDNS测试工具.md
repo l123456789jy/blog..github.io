@@ -32,5 +32,7 @@ tags:
 
 ![](https://ws1.sinaimg.cn/large/9f723435ly1fwtj9yl8i2j20gq0awq2z.jpg)
 
-这里就可以看到他的解析时间是23ms，ip等等信息。
+这里就可以看到他的解析时间是23ms，ip等等信息
+
+不需要安装的在线GUI界面：https://www.diggui.com/
 
