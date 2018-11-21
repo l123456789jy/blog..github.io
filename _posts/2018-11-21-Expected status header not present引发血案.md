@@ -1,0 +1,27 @@
+---
+layout:     post
+title:      "Expected ':status' header not present"
+subtitle:   ""
+date:       2018-11-21 16:42:00
+author:     ""
+header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-mask: 0.3
+catalog: bug
+tags:
+    -
+---
+
+- 线上突然说部分用户无法访问APP，而且很分散,而我这边测试有正常，发给用户测试包看到 Expected ':status' header not present 这个错误
+
+- 搜索了下最终定位到okhttp的bug,https://github.com/square/okhttp/issues/3954
+
+- 原来低版本的okhttp不支持http2.0,我们使用的版本是2.7升级要改动太多，只能先保证用户使用
+
+- 但是问了运维他们也没有升级，这个谁升级的呢，后来排查是三方的防火墙升级了，这种升级也不通知，太坑。
+
+
+
+
+
+
+
