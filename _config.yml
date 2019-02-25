@@ -97,5 +97,8 @@ friends: [
     },{
         title: "Google Developer",
         href: "https://developer.android.google.cn/index.html?hl=zh-cn"
+    },{
+      title: "开源实验室",
+      href: " https://kymjs.com"
     }
 ]
