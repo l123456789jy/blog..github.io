@@ -54,6 +54,8 @@ try {
     } catch (Exception e) {
       e.printStackTrace();
     }
+```
+
 
 
 这里需要注意，我们在本地定义的两个ActivityThread和AppGlobals要以android.app包名来命名，这样就可以欺骗编辑器，然后根据类加载器的委托机制，他会直接加载系统的ActivityThread和AppGlobals因此就可以直接获取application了
