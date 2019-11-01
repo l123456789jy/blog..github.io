@@ -2,7 +2,7 @@
 layout:     post
 title:      "Gradle脚本切换成Kotlin"
 subtitle:   ""
-date:       2019-10-27 16:42:00
+date:       2019-11-01 16:42:00
 author:     ""
 header-img: "img/post-bg-nextgen-web-pwa.jpg"
 header-mask: 0.3
