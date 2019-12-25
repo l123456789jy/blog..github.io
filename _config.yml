@@ -5,8 +5,8 @@ header-img: img/home-bg.jpg
 email: jingyuanliu0@gmail.com
 description: "一个正在爬的菜鸟！"
 keyword: "Hux Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, Lazy,liujingyuan,liujingyuan.top,Android,android,IT,程序员,java"
-url: "https://liujingyuan.top/"              # your host, for absolute URL
-baseurl: "https://cdn.jsdelivr.net/gh/l123456789jy/l123456789jy.github.io"                             # for example, '/blog' if your blog hosted on 'host/blog'
+url: ""              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
