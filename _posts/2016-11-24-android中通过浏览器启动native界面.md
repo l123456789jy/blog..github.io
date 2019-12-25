@@ -4,7 +4,7 @@ title:      "android中通过浏览器启动native界面"
 subtitle:   ""
 date:       2016-11-24 11:30:00
 author:     "Lazy"
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

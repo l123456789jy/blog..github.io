@@ -4,7 +4,7 @@ title:      "在 Android 中如何确定 App(Activity) 的启动者"
 subtitle:   ""
 date:       2019-12-02 16:42:00
 author:     ""
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:
 tags:

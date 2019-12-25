@@ -4,7 +4,7 @@ title:      "通过VPS配合youtube-upload自动上传视频到youtube"
 subtitle:   ""
 date:       2018-10-25 16:42:00
 author:     ""
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:
 tags:

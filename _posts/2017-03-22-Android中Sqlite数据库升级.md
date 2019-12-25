@@ -4,7 +4,7 @@ title:      "Android中Sqlite数据库升级"
 subtitle:   ""
 date:       2017-03-22 15:32:00
 author:     ""
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

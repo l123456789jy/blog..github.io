@@ -4,7 +4,7 @@ title:      "eact-Native学习笔记-Texview"
 subtitle:   ""
 date:       2016-06-28 15:32:00
 author:     "Lazy"
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

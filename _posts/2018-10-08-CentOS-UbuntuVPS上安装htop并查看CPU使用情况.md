@@ -4,7 +4,7 @@ title:      "CentOS/UbuntuVPS上安装htop并查看CPU使用情况"
 subtitle:   ""
 date:       2018-10-08 16:42:00
 author:     ""
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

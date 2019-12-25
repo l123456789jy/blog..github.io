@@ -4,7 +4,7 @@ title:      "ijkplayer库的编译带OPENSSL"
 subtitle:   ""
 date:       2016-07-19 13:37:00
 author:     "Lazy"
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

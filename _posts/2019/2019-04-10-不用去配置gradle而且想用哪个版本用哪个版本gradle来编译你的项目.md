@@ -4,7 +4,7 @@ title:      "不用去配置gradle而且想用哪个版本用哪个版本gradle�
 subtitle:   ""
 date:       2019-04-10 16:42:00
 author:     ""
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog: gradle
 tags:

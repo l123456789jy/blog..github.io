@@ -4,7 +4,7 @@ title:      "windows搭建frida hook环境"
 subtitle:   ""
 date:       2019-06-25 16:42:00
 author:     ""
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:
 tags:

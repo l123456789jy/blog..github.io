@@ -4,7 +4,7 @@ title:      "androidsdk tools工具使用"
 subtitle:   ""
 date:       2018-09-10 16:42:00
 author:     ""
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

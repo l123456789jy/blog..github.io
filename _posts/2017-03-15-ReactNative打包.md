@@ -4,7 +4,7 @@ title:      "ReactNative打包"
 subtitle:   ""
 date:       2017-03-15 15:32:00
 author:     "Lazy"
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

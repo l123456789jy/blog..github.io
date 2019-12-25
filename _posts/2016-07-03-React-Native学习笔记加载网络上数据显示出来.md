@@ -4,7 +4,7 @@ title:      "React-Native学习笔记加载网络上数据显示出来"
 subtitle:   " "
 date:       2016-07-03 15:32:00
 author:     "Lazy"
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

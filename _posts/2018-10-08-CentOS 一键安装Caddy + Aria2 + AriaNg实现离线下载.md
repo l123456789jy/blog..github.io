@@ -4,7 +4,7 @@ title:      "CentOS 一键安装Caddy + Aria2 + AriaNg实现离线下载"
 subtitle:   ""
 date:       2018-10-08 18:42:00
 author:     ""
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

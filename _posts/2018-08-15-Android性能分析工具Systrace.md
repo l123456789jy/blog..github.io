@@ -4,7 +4,7 @@ title:      "Android性能分析工具Systrace"
 subtitle:   ""
 date:       2018-08-15 16:42:00
 author:     ""
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

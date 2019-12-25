@@ -4,7 +4,7 @@ title:      "android打包一个没有快捷键的apk,并且通过另一个应�
 subtitle:   ""
 date:       2016-12-11 14:44:00
 author:     "Lazy"
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

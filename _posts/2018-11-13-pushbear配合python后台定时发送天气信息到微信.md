@@ -4,7 +4,7 @@ title:      "pushbear配合python后台定时发送天气信息到微信"
 subtitle:   ""
 date:       2018-11-13 16:42:00
 author:     ""
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:
 tags:

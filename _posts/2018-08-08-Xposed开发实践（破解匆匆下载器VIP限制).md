@@ -4,7 +4,7 @@ title:      "Xposed开发实践（破解匆匆下载器VIP限制）"
 subtitle:   ""
 date:       2018-08-08 16:42:00
 author:     ""
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

@@ -4,7 +4,7 @@ title:      "React-Native学习笔记-加载网络上电影数据并且使用lis
 subtitle:   "Welcome to my blog "
 date:       2016-07-03 15:32:00
 author:     "Lazy"
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

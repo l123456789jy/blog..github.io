@@ -4,7 +4,7 @@ title:      "android本地搭建Https本地服务器"
 subtitle:   "有时候我们需要在手机内部开启一个代理，进行一些转发"
 date:       2016-11-24 11:30:00
 author:     "Lazy"
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

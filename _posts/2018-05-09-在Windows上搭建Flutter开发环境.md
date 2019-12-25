@@ -4,7 +4,7 @@ title:      "在Windows上搭建Flutter开发环境"
 subtitle:   ""
 date:       2018-05-09 16:42:00
 author:     ""
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

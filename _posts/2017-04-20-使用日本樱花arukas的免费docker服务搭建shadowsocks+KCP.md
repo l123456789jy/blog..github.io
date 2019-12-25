@@ -4,7 +4,7 @@ title:      "使用日本樱花arukas的免费docker服务搭建shadowsocks+KCP"
 subtitle:   ""
 date:       2017-04-20 15:32:00
 author:     ""
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

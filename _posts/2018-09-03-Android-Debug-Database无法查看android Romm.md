@@ -4,7 +4,7 @@ title:      "Android-Debug-Database无法查看android Romm"
 subtitle:   ""
 date:       2018-09-03 16:42:00
 author:     ""
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

@@ -4,7 +4,7 @@ title:      "Windows版本搭建安装React Native环境配置"
 subtitle:   ""
 date:       2017-03-08 15:32:00
 author:     "Lazy"
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

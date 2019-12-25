@@ -4,7 +4,7 @@ title:      "另外一种更优雅兼容Android P获取Application的方法"
 subtitle:   ""
 date:       2019-03-29 16:42:00
 author:     ""
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog: svn
 tags:

@@ -4,7 +4,7 @@ title:      "Android动态加载dex技术初步了解"
 subtitle:   ""
 date:       2017-09-20 15:30:00
 author:     ""
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

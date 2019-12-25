@@ -4,7 +4,7 @@ title:      "建立私人在线影库配合Plex云盘配合Arinag离线下载在
 subtitle:   ""
 date:       2018-11-10 16:42:00
 author:     ""
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:
 tags: vps

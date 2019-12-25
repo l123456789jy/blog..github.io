@@ -4,7 +4,7 @@ title:      "Windows添加digDNS测试工具"
 subtitle:   ""
 date:       2018-11-02 16:42:00
 author:     ""
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:
 tags:

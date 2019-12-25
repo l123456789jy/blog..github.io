@@ -4,7 +4,7 @@ title:      "利用github api获取issue搭建自己的静态服务器"
 subtitle:   ""
 date:       2019-04-24 16:42:00
 author:     ""
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog: gradle
 tags:

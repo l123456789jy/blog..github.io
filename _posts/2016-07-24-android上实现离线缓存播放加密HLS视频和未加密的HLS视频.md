@@ -4,7 +4,7 @@ title:      "android上实现离线缓存播放加密HLS视频和未加密的HLS
 subtitle:   ""
 date:       2016-07-24 15:07:00
 author:     "Lazy"
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

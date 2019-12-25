@@ -4,7 +4,7 @@ title:      "LruMemoryCache源码分析"
 subtitle:   ""
 date:       2017-02-25 15:32:00
 author:     "Lazy"
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
