@@ -1,7 +1,7 @@
 # Site settings
 title: Lazy Blog
 SEOTitle: 刘景元的博客 | Lazy Blog
-header-img: https://cdn.jsdelivr.net/gh/l123456789jy/l123456789jy.github.io/img/home-bg-o.jpg
+header-img: img/home-bg-o
 email: jingyuanliu0@gmail.com
 description: "一个正在爬的菜鸟！"
 keyword: "Hux Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, Lazy,liujingyuan,liujingyuan.top,Android,android,IT,程序员,java"
