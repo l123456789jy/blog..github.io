@@ -4,7 +4,7 @@ SEOTitle: 刘景元的博客 | Lazy Blog
 header-img: img/home-bg.jpg
 email: jingyuanliu0@gmail.com
 description: "一个正在爬的菜鸟！"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, 肖玉, Lynn, 肖玉的男朋友"
+keyword: "Hux Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, Lazy,liujingyuan,liujingyuan.top,Android,android,IT,程序员,java"
 url: ""              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -70,7 +70,7 @@ ga_domain: auto
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，<br>离开世界之前，一切都是过程"
+sidebar-about-description: "一入IT深似海,早日回头是岸"
 sidebar-avatar: /img/icon.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
