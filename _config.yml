@@ -59,8 +59,8 @@ disqus_username: https-liujingyuan-top-1
 
 
 # Analytics settings
-# Baidu Analytics 
-ba_track_id: d445b63d846d957758eabc1a60f05961
+# Baidu Analytics   d445b63d846d957758eabc1a60f05961
+ba_track_id:
 
 # Google Analytics
 ga_track_id: 'UA-92253063-1'            # Format: UA-xxxxxx-xx
