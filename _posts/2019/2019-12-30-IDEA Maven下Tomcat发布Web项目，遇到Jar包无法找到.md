@@ -12,21 +12,23 @@ tags:
 ---
 
 
+
+
+
 - 我们在Maven中配置的lib是没有自动下载到web中的lib目录下面的，默认下载在本地的Maven仓库，我们如果需要发布版本的时候一起打进lib下需要如下配置
 
 
 
 
-
-
-    <dependencies>
+```xml
+ <dependencies>
         <dependency>
             <groupId>jstl</groupId>
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
     </dependencies>
-
+```
 
 
 
