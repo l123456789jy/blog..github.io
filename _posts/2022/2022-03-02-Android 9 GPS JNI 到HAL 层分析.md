@@ -87,6 +87,41 @@ Return<bool> Gnss::start()  {
     return (mGnssIface->start() == 0);
 }
 ```
+- 返回流程 
+ 
+
+```
+
+      typedef struct {
+        gps_location_callback location_cb;
+        } GpsCallbacks;
+  
+      /**
+ * Callback with location information. Can only be called from a thread created
+ * by create_thread_cb.
+ */
+typedef void (* gps_location_callback)(GpsLocation* location);
+
+```
+在libhardware目录下的gps.h hal层中定义了，驱动层的的位置回调方法 gps_location_callback
+方法，然后再Gnsss.cpp中提供了setCallback方法回调到JNI层，在Gnss.cpp引用了hal层的location_cb
+
+```
+GpsCallbacks Gnss::sGnssCb = {
+    .size = sizeof(GpsCallbacks),
+    .location_cb = locationCb,
+    .status_cb = statusCb,
+    .sv_status_cb = gpsSvStatusCb,
+    .nmea_cb = nmeaCb,
+    .set_capabilities_cb = setCapabilitiesCb,
+    .acquire_wakelock_cb = acquireWakelockCb,
+    .release_wakelock_cb = releaseWakelockCb,
+    .create_thread_cb = createThreadCb,
+    .request_utc_time_cb = requestUtcTimeCb,
+    .set_system_info_cb = setSystemInfoCb,
+    .gnss_sv_status_cb = gnssSvStatusCb,
+};
+```
 
 ![image.png](https://upload-images.jianshu.io/upload_images/1205414-c8d7c62174af625d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
